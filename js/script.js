@@ -25,16 +25,18 @@ getSale[0].remove();
 
 let getSecondChange = document.querySelector('ul') [1],
     getItemLi = document.querySelectorAll('li') ;
+    getItemLi[13].after(getItemLi[8]);
     getItemLi[9].after(getItemLi[12]);
     getItemLi[12].after(getItemLi[14]);
     getItemLi[37].after(getItemLi[45]);
     getItemLi[40].after(getItemLi[38]);
-  // console.log(getItemLi);
+    getItemLi[43].after(getItemLi[41]);
+  console.log(getItemLi);
 
 
 // --в шестой книге добавить главу “Глава 8: За пределами ES6” и поставить её в правильное место
 let getClassUl = document.querySelectorAll('ul') [5],
-    elemLi = document.querySelectorAll('li') [56];
+    elemLi = document.querySelectorAll('li') [55];
     elemLi.insertAdjacentHTML('afterend', '<li>Глава 8: За пределами ES6</li>');
 // console.log(getClassUl);
 // console.log(elemLi);
