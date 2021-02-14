@@ -25,7 +25,9 @@ getSale[0].remove();
 
 let getSecondChange = document.querySelector('ul') [1],
     getItemLi = document.querySelectorAll('li') ;
+
     getItemLi[13].after(getItemLi[8]);
+    getItemLi[15].after(getItemLi[8]);
     getItemLi[9].after(getItemLi[12]);
     getItemLi[12].after(getItemLi[14]);
     getItemLi[37].after(getItemLi[45]);
